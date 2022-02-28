@@ -19,7 +19,7 @@ def cross_entropy(y_hat, y, reduction="mean"):
 
 
 if __name__ == "__main__":
-    import torch.nn.functional as F
+    # import torch.nn.functional as F
     X = torch.normal(0, 1, (2, 5))
     print(softmax(X, dim=1))
     print(F.softmax(X, dim=1))

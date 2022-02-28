@@ -1,7 +1,7 @@
 import os
 import torch
 import simple_network
-import simple_network.nn.funcational as F
+import simple_network.nn.functional as F
 from simple_network.dataset import load_data_fashion_mnist, get_fashion_mnist_labels
 from simple_network.models import LinearReg
 from simple_network.utils import Accumulator, RealTimeGraph, show_images

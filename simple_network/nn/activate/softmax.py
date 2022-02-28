@@ -1,4 +1,4 @@
-from ..funcational import softmax
+from ..functional import softmax
 
 class Softmax:
     def __init__(self, dim=1):
